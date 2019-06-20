@@ -1,0 +1,29 @@
+{
+  "name": "ship-station-encore",
+  "version": "1.0.3",
+  "description": "Ship Station Extension For Encore",
+  "repository": "https://github.com/lefthookdigital/encore_shipping_ship_station.git",
+  "author": "Luke Douglas <lukedouglas1210@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "underscore": "^1.9.1",
+    "zapier-platform-core": "7.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.0"
+  }
+}
